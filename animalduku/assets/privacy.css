@@ -43,16 +43,8 @@ body {
 h1 { margin: .15em 0; font-size: clamp(2rem, 5vw, 3.35rem); line-height: 1.15; }
 .lead { max-width: 720px; font-size: 1.1rem; }
 .meta { color: var(--muted); font-size: .92rem; }
-nav { display: flex; gap: 12px; margin-top: 24px; }
-nav a {
-  padding: 8px 16px;
-  border: 1px solid var(--brand);
-  border-radius: 999px;
-  text-decoration: none;
-}
 main { padding-block: 28px 60px; }
 section { scroll-margin-top: 20px; }
-h2 { margin-top: 1em; font-size: 2rem; color: var(--brand); }
 h3 { margin-top: 2em; line-height: 1.35; }
 a { color: var(--brand); overflow-wrap: anywhere; }
 code { padding: .12em .35em; border-radius: 4px; background: var(--code); }
@@ -62,10 +54,8 @@ table { width: 100%; min-width: 760px; border-collapse: collapse; font-size: .94
 th, td { padding: 13px 14px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
 th { background: var(--brand-soft); }
 tr:last-child td { border-bottom: 0; }
-hr { margin: 60px 0 42px; border: 0; border-top: 1px solid var(--line); }
 footer { padding: 28px 0; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
 @media (max-width: 560px) {
   .hero { padding-top: 36px; }
   .wrap { width: min(100% - 24px, 960px); }
 }
-
